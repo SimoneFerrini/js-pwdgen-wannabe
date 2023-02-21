@@ -12,12 +12,12 @@ Infine scrivi sulla pagina la concatenazione delle variabili + un numero a caso 
 
 */
 
-let name = prompt("Inserisci il tuo nome");
+let nome = prompt("Inserisci il tuo nome");
 
-let surname = prompt("Inserisci il tuo cognome");
+let cognome = prompt("Inserisci il tuo cognome");
 
 let color = prompt("Inserisci il tuo colore preferito");
 
 let rndNumber = Math.floor(Math.random() * 100);
 
-document.writeln("La tua password è: " + name + surname + color + rndNumber);
+document.writeln("La tua password è: " + nome + cognome + color + rndNumber);
